@@ -20,3 +20,18 @@ body {
     color: #f9b234;
     font-weight: 600;
 }
+
+/* Carousel */
+.carousel{
+    height: 450px;
+    background-color: #1e1e1f;
+    color: white;
+}
+
+.carousel h1 {
+    font-family: 'Lora';
+}
+
+.carousel p {
+    font-weight: 200;
+}

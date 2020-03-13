@@ -4,6 +4,7 @@ body {
 
 .navbar {
     background-color: #1e1e1f;
+    border-bottom: 1px solid #333333;
 }
 
 .nav-tem {
@@ -70,4 +71,54 @@ body {
 
 .designer p {
     position: relative;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    margin-top: 100px;
+}
+
+.product-thumnail-container {
+    background-color: #f1f1f1;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3);
+    width: 310px;
+    padding: 8px;
+    margin: auto;
+    transform: translateY(-45px);
+}
+
+.product-thumnail-container a:hover {
+text-decoration: none;
+}
+
+.btn-product {
+    margin: 25px 0;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 5px;
+}
+
+.btn-product .btn {
+    display: block;
+    margin:10px 0;
+}
+
+.designed-by h5 {
+    font-size: 14px;
+    font-weight: 200;
+    color: #b7b7b7;
+}
+
+.designed-by h6 {
+    font-size: 18px;
+    color: #171717;
+    margin-left: 5px;
+}
+
+.designed-by p {
+    font-size: 14px;
+    color: #b7b7b7;
+}
+
+.designed-by col {
+    margin-left: 50px;
 }
